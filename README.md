@@ -7,8 +7,8 @@ deb文件夹中的包使用于Debian/Ubuntu，rpm文件夹中的包使用于Cent
 
 使用方法：
 1. 安装内核  
-dpkg -i linux-image-4.19.182_4.19.182-1_amd64.deb
-dpkg -i linux-headers-4.19.182_4.19.182-1_amd64.deb
+dpkg -i linux-image-4.19.182_4.19.182-1_amd64.deb  
+dpkg -i linux-headers-4.19.182_4.19.182-1_amd64.deb  
 
 2. 在/etc/sysctl.conf中添加如下两行（注意删除原先的）：
 ```
