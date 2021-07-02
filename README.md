@@ -11,9 +11,10 @@ deb文件夹中的包使用于Debian/Ubuntu，rpm文件夹中的包使用于Cent
 wget https://github.com/xsm1997/tcpkuma/raw/master/deb/linux-headers-4.19.182_4.19.182-1_amd64.deb
 wget https://github.com/xsm1997/tcpkuma/raw/master/deb/linux-image-4.19.182_4.19.182-1_amd64.deb
 ```
+```
 dpkg -i linux-image-4.19.182_4.19.182-1_amd64.deb  
 dpkg -i linux-headers-4.19.182_4.19.182-1_amd64.deb  
-
+```
 2. 在/etc/sysctl.conf中添加如下两行（注意删除原先的）：
 ```
 net.core.default_qdisc=fq
